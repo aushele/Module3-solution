@@ -1,0 +1,92 @@
+body {
+  font-size: 16px;
+  background-color: #79d2a6;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #2d8659;
+  height: 75px;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 {
+	color: #0d261a;
+	font-size: 1,5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 3px #07130d;
+	text-align: left;
+	margin: 0;
+	padding-left: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#collapsable-nav {
+	padding: 0;
+	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #46b97c,
+} 
+#nav-list a {
+  color: #235c3e;
+  font-size: 1.2em;
+  background-color: #c8ead8; 
+  text-align: center;
+}
+#nav-list a:hover {
+  text-decoration: none;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* Main page*/
+h2 {
+	color: #235c3e;
+	text-shadow: 3px;
+}
+
+#menu-tile {
+  	background-position: center;
+    left: auto;
+ 	right: auto;
+  	width: 100%;
+  	background-color: #c8ead8;
+  	bottom: 0;
+  	right: 0;
+  	text-align: center;
+  	text-transform: uppercase;
+  	padding-left: 5px;
+  	padding-right: 5px;
+  	overflow: hidden;
+}
+#specials-tile {
+  background-position: center;
+}
+#menu-tile span {
+  bottom: 0;
+  right: 0;
+  left: auto;
+  right: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #153725;
+}
+#menu-tiles p {
+	left: auto;
+ 	right: auto;
+  	width: 100%;
+  	background-color: #c8ead8;
+  	overflow: hidden;
+  	color: #235c3e;
+}
